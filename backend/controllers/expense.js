@@ -27,7 +27,7 @@ exports.addExpense  = async (req,res) => {
             res.status(500).json({message: 'Server Error'})
        }
 
-       console.log(income)
+       console.log(expense)
 }
 
 
